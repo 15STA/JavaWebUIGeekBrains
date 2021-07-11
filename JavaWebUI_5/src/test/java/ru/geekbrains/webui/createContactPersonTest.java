@@ -11,7 +11,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,12 +18,12 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 @ExtendWith(TimingExtension.class)
-public class createContactPersonTest {
+public class CreateContactPersonTest {
     private final String LOGIN_PAGE_URL = "https://crm.geekbrains.space/user/login";
     private final String STUDENT_LOGIN = "Applanatest1";
     private final String STUDENT_PASSWORD = "Student2020!";
     private WebDriver driver;
-    private static Logger logger = LoggerFactory.getLogger(createNewProjectTest.class);
+    private static Logger logger = LoggerFactory.getLogger(CreateNewProjectTest.class);
 
     @BeforeAll
     static void beforeAllTests() {

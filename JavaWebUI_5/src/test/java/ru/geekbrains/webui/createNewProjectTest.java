@@ -16,22 +16,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @ExtendWith(TimingExtension.class)
-public class createNewProjectTest {
+public class CreateNewProjectTest {
 
     private final String LOGIN_PAGE_URL = "https://crm.geekbrains.space/user/login";
     private final String STUDENT_LOGIN = "Applanatest1";
     private final String STUDENT_PASSWORD = "Student2020!";
     private String projectName = "ST_newProject2021";
     private WebDriver driver;
-    private static Logger logger = LoggerFactory.getLogger(createNewProjectTest.class);
+    private static Logger logger = LoggerFactory.getLogger(CreateNewProjectTest.class);
 
 
     @BeforeAll
